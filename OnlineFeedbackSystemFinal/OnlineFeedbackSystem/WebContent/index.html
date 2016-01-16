@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>OFS | Home</title>
+<meta charset="ISO-8859-1">
+<meta name="description" content="website description" />
+<meta name="keywords" content="website keywords, website keywords" />
+<meta http-equiv="content-type"
+	content="text/html; charset=windows-1252" />
+<link rel="stylesheet" type="text/css" href="style/style.css"
+	title="style" />
+</head>
+
+<body>
+	<div id="main">
+		<div id="header">
+			<div id="logo">
+				<div id="logo_text">
+					<!-- class="logo_colour", allows you to change the colour of the text -->
+					<h1>
+						<a href="index.html">Welcome to the Online Feedback System</a>
+					</h1>
+
+				</div>
+			</div>
+			<div id="menubar">
+				<ul id="menu">
+					<li class="selected"><a href="index.html">Login Page</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="site_content">
+			<div id="content">
+				<form action="login" method="POST">
+					Username : <input type="text" name="username"><br /> <br />
+					Password : <input type="password" name="pwd"><br /> <br />
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input  id="ofs-btn" type="submit" name="login" value="Login" />
+					<br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="checkbox" name="participantvalidation" value="true">
+					I am a participant
+
+				</form>
+			</div>
+		</div>
+		<div id="content_footer"></div>
+		<div id="footer">Copyright &copy; |MAHYO01|</div>
+	</div>
+</body>
+</html>
